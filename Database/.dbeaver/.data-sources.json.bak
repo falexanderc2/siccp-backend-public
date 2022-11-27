@@ -1,0 +1,111 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-181f9e14b96-8b0df0917e5361f": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "dfhqa52docnjck",
+			"save-password": true,
+			"configuration": {
+				"host": "ec2-3-223-169-166.compute-1.amazonaws.com",
+				"port": "5432",
+				"database": "dfhqa52docnjck",
+				"url": "jdbc:postgresql://ec2-3-223-169-166.compute-1.amazonaws.com:5432/dfhqa52docnjck",
+				"home": "/run/user/1000/doc/4de493ae/bin",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"read-keys-with-columns": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-183dc84d359-4263b946515c6567": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "siccp",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5433",
+				"database": "siccp",
+				"url": "jdbc:postgresql://localhost:5433/siccp",
+				"home": "/run/user/1000/doc/4de493ae/bin",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"read-keys-with-columns": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			},
+			"custom-properties": {
+				"SQLEditor.ContentAssistant.insert.case": "1",
+				"SQLEditor.ContentAssistant.show.column.procedures": "true",
+				"SQLEditor.markOccurrences": "true",
+				"dataformat.profile.country": "VE",
+				"dataformat.profile.language": "es",
+				"resultset.grid.value.format": "UI",
+				"resultset.text.line.number": "true",
+				"sql.format.break.before.close.bracket": "true",
+				"sql.format.formatter": "COMPACT",
+				"sql.proposals.insert.table.alias": "NONE"
+			}
+		},
+		"postgres-jdbc-184a6bcbd90-4036a5f7cc3b1d0a": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "railway",
+			"save-password": true,
+			"configuration": {
+				"host": "containers-us-west-46.railway.app",
+				"port": "5635",
+				"database": "railway",
+				"url": "jdbc:postgresql://containers-us-west-46.railway.app:5635/railway",
+				"home": "/run/user/1000/doc/4de493ae/bin",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20",
+					"loginTimeout": "20"
+				},
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"read-keys-with-columns": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
